@@ -3,20 +3,28 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package threesolid;
+package assignment5;
+
+import assignment5.interfaces.IEat;
+import assignment5.interfaces.ISick; 
 
 /**
  *
  * @author Hunter
  */
-class Worker implements IWorker, IFeedable{
-    @Override
-    public void work() {
-      System.out.println("All work and no play make worker a dull boi");
+abstract class Worker extends BaseWorker implements IEat, ISick {
+    public Worker(String aName, int aID){
+        super(aName, aID); 
     }
     
-    @Override
-    public void eat() {
-      System.out.println("Worker eats sandwich. Critical damage to sandwich");
+    public void eat(){
+        System.out.println("Here's the typical eat function for Randy:"); 
+        System.out.println("Crème fraîche, Cafeteria Fraîche. Lalalalala fraîche. Ho ho hohoho."); 
     }
+    
+    public void sick(){
+        System.out.println("Here's the typical ick function for Randy:"); 
+        System.out.println("Just gonna get a little bit of cancer, Stan. Tell Mom it’s okay."); 
+    }
+    
 }

@@ -3,67 +3,47 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package threesolid;
+package assignment5;
 
 /**
  *
  * @author Hunter
  */
 public class ThreeSolidMain {
-    
-   public static void main(String[] args) 
-   {
- 
-      try 
-      {
-         System.out.format("Starting ... \n");               
-      } 
-      catch (Exception main_except)
-      {
-         main_except.printStackTrace();
-      }
-      
-      Member Bob = new Member("Bob", 12345);
-      System.out.println("The members name is " + Bob.getName()); 
-      System.out.println("The members ID is " + Bob.getID());
-      System.out.println();
-      
-      Robot RB1 = new Robot("Metagross", 86); 
-      System.out.println("The Robot's name is " + RB1.getName()); 
-      System.out.println("The members ID is " + RB1.getID());
-      RB1.work();
-      System.out.println();
-      
-      Worker Peasant = new Worker(); 
-      Peasant.work();
-      Peasant.eat(); 
-      System.out.println();
-      
-      SuperWorker Tryhard = new SuperWorker();
-      Tryhard.work();
-      Tryhard.eat(); 
-      System.out.println();
-      
-      
-      Manager Paulie = new Manager();
-      Paulie.setWorker(Peasant);
-      Paulie.manage(); 
-      System.out.println();
-      
-      {
-            try 
-      {
-         System.out.format("Stopping ... \n");               
-      } 
-            
-      catch (Exception main_except)
-      {
-         main_except.printStackTrace();
-      }
 
-      System.exit(0);
-      }
-   }
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        ProjectManager BillLumberg = new ProjectManager();
+        BillLumberg.manage();
+        BillLumberg.schedulework();
+        System.out.println(); 
+        
+        ProductManager TrevorP = new ProductManager();
+        TrevorP.manage();
+        TrevorP.defineproduct();
+        System.out.println(); 
+        
+        Worker RandyM = new Worker("Randy", 12345) {}; 
+        RandyM.sick();
+        RandyM.eat(); 
+        System.out.println(); 
+        
+        SuperWorker PCPrincipal = new SuperWorker("PC Principal", 123) {}; 
+        PCPrincipal.sick();
+        PCPrincipal.eat(); 
+        PCPrincipal.work(); 
+        System.out.println(); 
+        
+        TempWorker Peasant = new TempWorker("Leeroy", 0) {}; 
+        Peasant.work();
+        Peasant.sick();
+        Peasant.eat();
+        System.out.println(); 
+        
+        Robot AWESOMO = new Robot("AWESOM-O", 4000) {}; 
+        AWESOMO.reboot();
+    }
+    
 }
-   
- 

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package threesolid;
+package assignment5;
 
 /**
  *
@@ -11,13 +11,14 @@ package threesolid;
  */
 public class Manager {
     	
-	IWorker worker;
+	BaseWorker worker;
     
-        public void setWorker(IWorker w) {
+        public void setWorker(BaseWorker w) {
 		worker = w;
 	}
         
        public void manage() {
-		worker.work();
+		System.out.println("Here's the typical manager function");
+                System.out.println("Just doing boring manager stuff. Why do you seem surprised?"); 
         }
 }

@@ -1,23 +1,16 @@
-package threesolid;
-
-import java.awt.*;        // Using AWT container and component classes
-import java.awt.event.*;  // Using AWT event classes and listener interfaces
-import java.io.*;
-
-//package IWork;
-
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package assignment5;
 
 /**
  *
  * @author Hunter
  */
-public class Member {
-    public Member(String aName, int aID){
+public class BaseWorker {
+    public BaseWorker(String aName, int aID){
         Name = aName;
         ID = aID;
      }
@@ -37,7 +30,12 @@ public class Member {
      public int getID(){
         return ID;
     }
+     
+     public void work(){
+         
+     }
     
    protected String Name;
    protected int ID; 
+    
 }
