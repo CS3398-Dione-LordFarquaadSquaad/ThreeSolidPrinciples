@@ -27,4 +27,8 @@ abstract class Worker extends BaseWorker implements IEat, ISick {
         System.out.println("Just gonna get a little bit of cancer, Stan. Tell Mom it’s okay."); 
     }
     
+    public void work(){
+        System.out.println("I'm working already!");
+    }
+    
 }

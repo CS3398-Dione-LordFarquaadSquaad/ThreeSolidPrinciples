@@ -32,7 +32,7 @@ public class BaseWorker {
     }
      
      public void work(){
-         
+        System.out.println("I'm working already!");
      }
     
    protected String Name;

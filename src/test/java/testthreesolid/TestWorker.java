@@ -1,4 +1,4 @@
-package threesolid;
+package assignment5;
 
 import org.junit.jupiter.api.BeforeAll;
 
@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 
 public class TestWorker {
 
-   private  Worker w = new Worker();
+   private  BaseWorker w = new BaseWorker();
 	
    @Test
    @DisplayName("No Name Test")
