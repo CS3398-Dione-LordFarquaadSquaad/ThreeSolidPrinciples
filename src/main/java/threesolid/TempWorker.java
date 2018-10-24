@@ -27,8 +27,10 @@ abstract class TempWorker extends BaseWorker {
     }
     
     @Override
-    public void work(){
+    public String work(){
         System.out.println("Here is the Temp Worker Function:");
-        System.out.println("I'm just here so I won't get fined"); 
+        System.out.println("I'm just here so I won't get fined");
+        String re = "I'm working already!";
+        return re;
     }
 }

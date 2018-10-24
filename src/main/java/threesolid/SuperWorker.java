@@ -28,9 +28,11 @@ abstract class SuperWorker extends BaseWorker {
     }
     
     @Override
-    public void work(){
+    public String work(){
         System.out.println("Here's the work function for PC Principal"); 
         System.out.println("We are at war, but the only way to win this war "
                 + "is to be as understanding, non-biased and politically correct as possible."); 
+        String re = "I'm working already!";
+        return re;
     }
 }
