@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 
 public class TestWorker {
 
-   private  BaseWorker w = new BaseWorker();
+   private BaseWorker w = new BaseWorker();
 	
    @Test
    @DisplayName("No Name Test")
