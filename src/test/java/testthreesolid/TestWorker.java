@@ -4,12 +4,12 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 public class TestWorker {
-  private BaseWorker w = new BaseWorker("Bob", 12345);
+  BaseWorker w = new BaseWorker("Bob", 12345);
 
   @Test
   @DisplayName("Work Method Test")
   public void testWorkMethod()
   {
-    assertEquals(w.work(),"I'm working already!",‚ÄùMismatch between test text and method text‚Äù);
+    assertEquals(w.work(),"I'm working already!",‚Ä?Mismatch between test text and method text‚Ä?);
   }
 }
