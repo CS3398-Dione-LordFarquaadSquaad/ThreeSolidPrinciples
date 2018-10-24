@@ -31,8 +31,10 @@ public class BaseWorker {
         return ID;
     }
      
-     public void work(){
+     public String work(){
         System.out.println("I'm working already!");
+        String re = "I'm working already!";
+        return re;
      }
     
    protected String Name;
