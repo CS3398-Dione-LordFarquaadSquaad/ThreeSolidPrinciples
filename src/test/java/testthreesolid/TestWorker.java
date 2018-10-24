@@ -4,7 +4,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 public class TestWorker {
-  private BaseWorker w = new BaseWorker("Bob", 12345);
+  BaseWorker w = new BaseWorker("Bob", 12345);
 
   @Test
   @DisplayName("Work Method Test")
