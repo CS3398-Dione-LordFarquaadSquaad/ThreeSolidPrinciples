@@ -59,7 +59,6 @@ sourceSets {
 <<<<<<< HEAD
 mainClassName = 'assignment5.ThreeSolidMain'
 =======
-mainClassName = 'threesolid.ThreeSolidMain'
 >>>>>>> master
 //
 /////////////////////////////////////////////////////////////
