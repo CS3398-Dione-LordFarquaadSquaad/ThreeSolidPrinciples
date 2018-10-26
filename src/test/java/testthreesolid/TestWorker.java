@@ -18,6 +18,6 @@ public class TestWorker {
   @DisplayName("Worker setName Test")
   public void testSetNameMethod() {
     w.setName("Trevor");
-    assertEquals(w.getName(), "Trevor");
+    assertEquals(w.getName(), "Trevor","Mismatch between given name to set and actually set name");
   }
 }
