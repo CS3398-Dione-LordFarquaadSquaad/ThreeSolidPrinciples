@@ -15,9 +15,16 @@ public class TestWorker {
   
   // Passing test
   @Test
-  @DisplayName("newtestRAWorkerPass()")
+  @DisplayName("setName Test")
   public void newtestRAWorkerPass() {
     w.setName("Trevor");
     assertEquals(w.getName(),"Trevor","Mismatch between given name to set and actually set name");
+  }
+  
+  // Failing test (will cause a build fail)
+  @Test
+  @DisplayName("null Worker Test")
+  public void newtestRAWorkerFail() {
+    assertNull(w, "Should be a null Worker object, but not");
   }
 }
