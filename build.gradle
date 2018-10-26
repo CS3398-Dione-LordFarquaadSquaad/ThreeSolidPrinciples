@@ -56,7 +56,11 @@ sourceSets {
 //      Change this assignment to reflect your own project 
 //      mainClassName = 'package.mainClassName'
 //
+<<<<<<< HEAD
 mainClassName = 'assignment5.ThreeSolidMain'
+=======
+mainClassName = 'threesolid.ThreeSolidMain'
+>>>>>>> master
 //
 /////////////////////////////////////////////////////////////
 
