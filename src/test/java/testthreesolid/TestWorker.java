@@ -15,7 +15,7 @@ public class TestWorker {
   
   // Passing test
   @Test
-  @DisplayName("Worker Name Test")
+  @DisplayName("Worker setName Test")
   public void testSetNameMethod() {
     w.setName("Trevor");
     assertEquals(w.getName(), "Trevor");
