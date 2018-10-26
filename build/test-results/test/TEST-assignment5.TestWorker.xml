@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="assignment5.TestWorker" tests="3" skipped="0" failures="1" errors="0" timestamp="2018-10-26T04:43:27" hostname="Ryn-HP-Laptop" time="0.012">
+<testsuite name="assignment5.TestWorker" tests="3" skipped="0" failures="1" errors="0" timestamp="2018-10-26T16:56:59" hostname="Ryn-HP-Laptop" time="0.013">
   <properties/>
   <testcase name="testWorkMethod()" classname="assignment5.TestWorker" time="0.008"/>
-  <testcase name="newtestRAWorkerFail()" classname="assignment5.TestWorker" time="0.002">
+  <testcase name="newtestRAWorkerFail()" classname="assignment5.TestWorker" time="0.003">
     <failure message="org.opentest4j.AssertionFailedError: Should be a null Worker object, but not ==&gt; expected: &lt;null&gt; but was: &lt;assignment5.BaseWorker@45392978&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Should be a null Worker object, but not ==&gt; expected: &lt;null&gt; but was: &lt;assignment5.BaseWorker@45392978&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:52)
 	at org.junit.jupiter.api.AssertNull.failNotNull(AssertNull.java:50)
