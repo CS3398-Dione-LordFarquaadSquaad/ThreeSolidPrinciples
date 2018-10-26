@@ -15,9 +15,9 @@ public class TestWorker {
   
   // Passing test
   @Test
-  @DisplayName("Worker setName Test")
-  public void testSetNameMethod() {
+  @DisplayName("newtestRAWorkerPass()")
+  public void newtestRAWorkerPass() {
     w.setName("Trevor");
-    assertEquals(w.getName(), "Trevor","Mismatch between given name to set and actually set name");
+    assertEquals(w.getName(),"Trevor","Mismatch between given name to set and actually set name");
   }
 }
