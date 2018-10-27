@@ -24,6 +24,6 @@ public class TestWorker {
   @DisplayName("ID test")
   public void testIDMethod()
   {
-    assertEquals(w.getID(), "2019","Mismatch between ID and method ID");
+    assertEquals(w.getID(), 2019,"Mismatch between ID and method ID");
   }
 }
