@@ -22,7 +22,7 @@ public class TestWorker {
   
   @Test
   @DisplayName("ID test")
-  public void testEatMethod()
+  public void testIDMethod()
   {
     assertEquals(w.getID(), "2019","Mismatch between ID and method ID");
   }
