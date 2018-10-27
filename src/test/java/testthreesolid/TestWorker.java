@@ -12,4 +12,19 @@ public class TestWorker {
   {
     assertEquals(w.work(),"I'm working already!","Mismatch between test text and method text");
   }
+  
+  @Test
+  @DisplayName("Name Method Test")
+  public void testNameMethod()
+  {
+    assertEquals(w.getName(), "Bob","Mismatch between test text and method text");
+  }
+  
+   @Test
+  @DisplayName("Eat Method Test")
+  public void testEatMethod()
+  {
+    assertEquals(w.eat(), "I like pickles and ketchup","Mismatch between test text and method text");
+  }
+  
 }
