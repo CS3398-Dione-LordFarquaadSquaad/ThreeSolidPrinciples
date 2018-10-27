@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="assignment5.TestWorker" tests="3" skipped="0" failures="1" errors="0" timestamp="2018-10-27T22:40:37" hostname="WhiteGas" time="0.068">
+<testsuite name="assignment5.TestWorker" tests="3" skipped="0" failures="1" errors="0" timestamp="2018-10-27T23:25:57" hostname="WhiteGas" time="0.05">
   <properties/>
-  <testcase name="testWorkMethod()" classname="assignment5.TestWorker" time="0.045"/>
-  <testcase name="testNameMethod()" classname="assignment5.TestWorker" time="0.002"/>
-  <testcase name="testIDMethod()" classname="assignment5.TestWorker" time="0.012">
-    <failure message="org.opentest4j.AssertionFailedError: Mismatch between ID and method ID ==&gt; expected: &lt;12345&gt; but was: &lt;2019&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Mismatch between ID and method ID ==&gt; expected: &lt;12345&gt; but was: &lt;2019&gt;
+  <testcase name="newtestHNWorkerFail()" classname="assignment5.TestWorker" time="0.035">
+    <failure message="org.opentest4j.AssertionFailedError: Mismatch between name and method name ==&gt; expected: &lt;12345&gt; but was: &lt;Kendrick Lamar&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Mismatch between name and method name ==&gt; expected: &lt;12345&gt; but was: &lt;Kendrick Lamar&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:52)
 	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:186)
 	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:497)
-	at assignment5.TestWorker.testIDMethod(TestWorker.java:27)
+	at assignment5.TestWorker.newtestHNWorkerFail(TestWorker.java:27)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -91,6 +89,8 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
+  <testcase name="newtestHNWorkerPass()" classname="assignment5.TestWorker" time="0.001"/>
+  <testcase name="testWorkMethod()" classname="assignment5.TestWorker" time="0.008"/>
   <system-out><![CDATA[I'm working already!
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
