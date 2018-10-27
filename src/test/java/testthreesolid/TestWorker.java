@@ -14,15 +14,15 @@ public class TestWorker {
   }
   
   @Test
-  @DisplayName("Name Method Test")
-  public void newtest<HN>WorkerPass()
+  @DisplayName("GetID Method Test")
+  public void newtestHNWorkerPass()
   {
     assertEquals(w.getID(), 12345,"Mismatch between ID and method ID");
   }
   
   @Test
-  @DisplayName("ID test")
-  public void newtest<HN>WorkerFail()
+  @DisplayName("Failing getName test")
+  public void newtestHNWorkerFail()
   {
     assertEquals(w.getID(), "Kendrick Lamar","Mismatch between name and method name");
   }
