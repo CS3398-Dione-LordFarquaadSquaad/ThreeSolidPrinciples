@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="assignment5.TestWorker" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-10-26T16:56:05" hostname="Ryn-HP-Laptop" time="0.009">
-  <properties/>
-  <testcase name="testWorkMethod()" classname="assignment5.TestWorker" time="0.009"/>
-  <system-out><![CDATA[I'm working already!
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
