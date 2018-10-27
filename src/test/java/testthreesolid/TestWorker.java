@@ -19,4 +19,11 @@ public class TestWorker {
   {
     assertEquals(w.getName(), "Bob","Mismatch between name and method name");
   }
+  
+  @Test
+  @DisplayName("ID test")
+  public void testEatMethod()
+  {
+    assertEquals(w.getID(), "2019","Mismatch between ID and method ID");
+  }
 }
